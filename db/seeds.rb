@@ -2,6 +2,7 @@ League.create!([
   {name: "American", dh: true},
   {name: "National", dh: false}
 ])
+
 Division.create!([
   {name: "East", league_id: 1},
   {name: "Central", league_id: 1},
@@ -9,8 +10,8 @@ Division.create!([
   {name: "East", league_id: 2},
   {name: "Central", league_id: 2},
   {name: "West", league_id: 2}
-
 ])
+
 Team.create!([
   # AL East
   {city: "Boston", name: "Red Sox", abbrev: "BOS", division_id: 1},
