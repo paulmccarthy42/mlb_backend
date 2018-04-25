@@ -1,5 +1,5 @@
 class V1::LeaguesController < ApplicationController
   def index
-    render json: "hello"
+    render json: League.all.as_json
   end
 end

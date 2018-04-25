@@ -9,9 +9,7 @@ class Team < ApplicationRecord
     {
       city: city,
       name: name,
-      abbrev: abbrev,
-      league: league.name,
-      division: division.name
+      abbrev: abbrev
     }
   end
 end
